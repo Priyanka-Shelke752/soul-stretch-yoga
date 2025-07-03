@@ -23,9 +23,6 @@ This project was built to showcase frontend development skills using modern layo
 
 ## Live Demo
 
->    
-> 
-
----
+> https://priyanka-shelke752.github.io/soul-stretch-yoga/   
 
 Designed and developed by **Priyanka Subhash Shelke**
