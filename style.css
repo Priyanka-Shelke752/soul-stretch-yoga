@@ -1,0 +1,50 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hover-effect:hover {
+  background-color: #e0ffe0;
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+
+.hero-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-left {
+  background: url('right.jpg') no-repeat center center / cover;
+  min-height: 50vh;
+}
+
+.hero-right {
+    background: url('left.jpg') no-repeat center center / cover;
+  min-height: 50vh;
+ 
+}
+
+
+.tip-box {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.tip-box:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.text-purple {
+  color: #a855f7;
+}
+
+/* Ensure full height on big screens */
+@media (min-width: 768px) {
+  .hero-left,
+  .hero-right {
+    min-height: 100vh;
+  }
+}
+
